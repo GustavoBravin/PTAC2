@@ -1,7 +1,7 @@
 import './app'
 import { Exemplo } from "./exem";
 export default function App() {
-  const listaalunos = ["Bravin, 16 anos, Mora em Batayporã","Maria, 16 anos, Mora em Nova Andradina","Gustavo, 16 anos, Mora na Favela","Marielle, 16 anos, Mora em Nova Andradina"]
+  const listaalunos = [{nome:"Bravin" , idade:16 , cidade:"Batayporã"}, {nome:"Moniky" , idade:15 , cidade:"Nova Andradina"},{nome:"Anielly" , idade:16 , cidade:"Nova Andradina"}]
     return (
       <div>
         <h1>Hello Word!</h1>
