@@ -24,7 +24,7 @@ export default function ToDo() {
     return (
         <div>
             <Link to="/">home</Link>
-            <h1>Lista de Bolas</h1>
+            <h1>Lista de Atvidades</h1>
             <p>{atividade}</p>
             <div className="flex-conteiner">
             <form onSubmit={salvar}> 
@@ -55,3 +55,20 @@ export default function ToDo() {
     </div>
     );
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
