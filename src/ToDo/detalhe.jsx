@@ -5,17 +5,17 @@ export default function Detalhe(){
 
     const {id} = useParams();
     const lista = JSON.parse(localStorage.getItem("Lista"))
-    const bola = lista.filter((objeto) => {
+    const nome = lista.filter((objeto) => {
         if(objeto.id == id){
   return objeto;
         }
     return null;
     })
-console.log(bola)
+console.log(nome)
 
 return(
 <div>
- <Card  atividade={bola[0]}/>
+ <Card  atividade={nome[0]}/>
 </div>
 
 )
